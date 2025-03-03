@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b8f441ab-db6a-41cf-af4f-bf38107914b4" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Watermark.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../note_update.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/config.yaml.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/container/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/container/container.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/models/watermark_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/presenter/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/presenter/main_presenter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ui/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ui/interfaces.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ui/main_window.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/utils/basic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/utils/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/utils/config.yaml.bak" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2ti1N8ElQQl0mhMDzqhIZ2H1OTz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "docs",
+    "last_opened_file_path": "C:/Users/Design-10/PycharmProjects/PythonProject/notes",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Design-10\PycharmProjects\PythonProject\notes" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PY-243.24978.54" />
+        <option value="bundled-python-sdk-91e3b7efe1d4-466328ff949b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.24978.54" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="b8f441ab-db6a-41cf-af4f-bf38107914b4" name="更改" comment="" />
+      <created>1740820038226</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740820038226</updated>
+      <workItem from="1740820039360" duration="25000" />
+      <workItem from="1740821087561" duration="761000" />
+      <workItem from="1740824199241" duration="604000" />
+      <workItem from="1740963537920" duration="33000" />
+      <workItem from="1740964875661" duration="508000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
