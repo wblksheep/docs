@@ -1,0 +1,9 @@
+resources/
+*.zip
+*.npy
+*.log
+*.png
+*.jpg
+*.jpeg
+*.log
+!docs/**/*.zip
