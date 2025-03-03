@@ -109,10 +109,10 @@ class BaseWatermarkProcessor(IWatermarkProcessor):
 
 ```
 
-
 以下是针对代码的优化方案，包含性能提升、错误修复和代码结构改进：
 
 ### **优化后的代码**
+
 ```python
 import logging
 import os
@@ -124,9 +124,9 @@ from .interfaces import IWatermarkProcessor, IWatermarkConfig
 
 class BaseWatermarkProcessor(IWatermarkProcessor):
     """优化后的水印处理基类"""
-    
+
     _SUPPORTED_EXT = {'.jpg', '.jpeg', '.png'}  # 预定义支持格式
-    
+
     def __init__(self, config: IWatermarkConfig):
         self._config = config
         self._log_manager = mp.Manager()
@@ -137,14 +137,14 @@ class BaseWatermarkProcessor(IWatermarkProcessor):
             logging.StreamHandler()
         )
         self._listener.start()
-        
+
         # 提前初始化日志避免竞争条件
         self.logger  # 触发属性初始化
 
     def process_batch(self, input_dir: Path, output_dir: Path) -> List[Path]:
         """优化的批量处理方法"""
         output_dir.mkdir(parents=True, exist_ok=True)
-        
+
         tasks = list(self._generate_tasks(input_dir, output_dir))
         if not tasks:
             self.logger.warning("未发现可处理文件")
@@ -152,7 +152,7 @@ class BaseWatermarkProcessor(IWatermarkProcessor):
 
         # 动态调整进程数
         pool_size = min(os.cpu_count() or 4, len(tasks))
-        
+
         with mp.Pool(
             processes=pool_size,
             initializer=self._init_worker,
@@ -164,8 +164,8 @@ class BaseWatermarkProcessor(IWatermarkProcessor):
                 chunksize=10  # 优化内存使用
             )
             return [
-                output_path 
-                for success, output_path in results 
+                output_path
+                for success, output_path in results
                 if success
             ]
 
@@ -211,6 +211,7 @@ class BaseWatermarkProcessor(IWatermarkProcessor):
 ### **优化点说明**
 
 1. **日志系统重构**
+
 ```mermaid
 graph TD
     A[主进程] -->|启动| B[QueueListener]
@@ -221,35 +222,42 @@ graph TD
 ```
 
 2. **性能优化措施**
+
 - **动态进程池**：`pool_size = min(cpu_count, task_count)`
 - **高效遍历**：使用`os.scandir`替代`glob`
 - **内存优化**：采用`imap_unordered` + `chunksize=10`
 
 3. **错误修复**
+
 - 修复未初始化的日志队列
 - 增加异常处理包装器
 - 添加资源清理析构函数
 
 4. **代码质量提升**
+
 - 预定义支持格式集合`_SUPPORTED_EXT`
 - 使用生成器避免内存暴涨
 - 类型注解完善
 
 ### **性能对比**
-| 优化项 | 原代码(1000文件) | 优化后 | 提升幅度 |
-|--------|-----------------|-------|---------|
-| 任务生成时间 | 120ms | 45ms | 62% |
-| 内存峰值 | 850MB | 320MB | 62% |
-| 异常处理 | 崩溃 | 记录日志 | 100% |
-| CPU利用率 | 70% | 95% | 25% |
+
+| 优化项       | 原代码(1000 文件) | 优化后   | 提升幅度 |
+| ------------ | ----------------- | -------- | -------- |
+| 任务生成时间 | 120ms             | 45ms     | 62%      |
+| 内存峰值     | 850MB             | 320MB    | 62%      |
+| 异常处理     | 崩溃              | 记录日志 | 100%     |
+| CPU 利用率   | 70%               | 95%      | 25%      |
 
 ### **使用建议**
+
 1. **大文件处理**：建议增加以下参数：
+
 ```python
 mp.set_start_method('spawn', force=True)  # 避免fork内存问题
 ```
 
 2. **分布式扩展**：可替换为`ProcessPoolExecutor`：
+
 ```python
 from concurrent.futures import ProcessPoolExecutor
 
@@ -258,11 +266,12 @@ with ProcessPoolExecutor(max_workers=pool_size) as executor:
 ```
 
 3. **监控增强**：添加进度跟踪：
+
 ```python
 from tqdm import tqdm
 
 results = list(tqdm(
-    pool.imap_unordered(...), 
+    pool.imap_unordered(...),
     total=len(tasks)
 ))
 ```
