@@ -35,22 +35,25 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;docs&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Design-10/PycharmProjects/PythonProject/notes&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "docs",
+    "last_opened_file_path": "C:/Users/Design-10/PycharmProj/notes/notes/old_notes/Untitled-20 Model层水印添加/Untitled-20-4 Model调用接口问题/Untitled-20-4-2 算法优化/Untitled-20-4-2-1-1 线程日志问题",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Design-10\PycharmProj\notes\notes\old_notes\Untitled-20 Model层水印添加\Untitled-20-4 Model调用接口问题\Untitled-20-4-2 算法优化\Untitled-20-4-2-1-1 线程日志问题" />
+      <recent name="C:\Users\Design-10\PycharmProj\notes\notes\old_notes\Untitled-20 Model层水印添加\Untitled-20-4 Model调用接口问题\Untitled-20-4-2 算法优化" />
+      <recent name="C:\Users\Design-10\PycharmProj\notes\notes\old_notes\Untitled-20 Model层水印添加\Untitled-20-4 Model调用接口问题" />
       <recent name="C:\Users\Design-10\PycharmProjects\PythonProject\notes" />
     </key>
   </component>
