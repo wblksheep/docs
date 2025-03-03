@@ -7,3 +7,5 @@ resources/
 *.jpeg
 *.log
 !docs/**/*.zip
+
+notes/.gitignore
