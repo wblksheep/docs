@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2698769-7bca-49d8-9f7f-67d56d28b530" name="Changes" comment="" />
+    <list default="true" id="e2698769-7bca-49d8-9f7f-67d56d28b530" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +27,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="RESET_MODE" value="HARD" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "wblksheep"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/wblksheep/Watermark.git",
+    "accountId": "316a7d06-85b9-4526-9f6e-eec0b52a8b80"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -39,7 +53,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "docs",
+    "git-widget-placeholder": "docs 上的 #1",
     "last_opened_file_path": "C:/Users/Design-10/PycharmProj/notes/notes/old_notes/Untitled-20 Model层水印添加/Untitled-20-4 Model调用接口问题/Untitled-20-4-2 算法优化/Untitled-20-4-2-1-1 线程日志问题",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -93,7 +107,6 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="b8f441ab-db6a-41cf-af4f-bf38107914b4" name="更改" comment="" />
       <created>1740820038226</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -103,6 +116,7 @@
       <workItem from="1740824199241" duration="604000" />
       <workItem from="1740963537920" duration="33000" />
       <workItem from="1740964875661" duration="508000" />
+      <workItem from="1741132581153" duration="500000" />
     </task>
     <servers />
   </component>
