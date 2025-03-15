@@ -1,3 +1,6 @@
 [submodule "head_system_docs"]
 	path = head_system_docs
 	url = https://github.com/wblksheep/head_system_docs.git
+[submodule "watermark_docs"]
+	path = watermark_docs
+	url = https://github.com/wblksheep/watermark_docs.git
